@@ -1,0 +1,20 @@
+body {
+    padding: 1em;
+    margin: 0;
+}
+
+section {
+    margin: 3em 0;
+}
+
+form div {
+    margin: 0.25em 0;
+}
+
+label {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}

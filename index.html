@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequelize Demo</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <section>
+        <h1>Add User</h1>
+        <form id="add_form">
+            <div>
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name">
+            </div>
+            <div>
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email">
+            </div>
+            <div>
+                <button id="add_submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    <section>
+        <h1>Get User</h1>
+        <form id="get_form">
+            <div>
+                <label for="id">Id</label>
+                <input type="text" id="id">
+            </div>
+            <div>
+                <button id="get_submit" type="submit">Get</button>
+            </div>
+        </form>
+        <form id="todo_form" class="hidden">
+            <div>
+                <div id="user-name"></div>
+                <div id="user-email"></div>
+                <ul id="user-todos"></ul>
+            </div>
+            <div>
+                <input id="todo" type="text">
+            </div>
+            <div>
+                <button id="todo_submit" type="submit">Add Todo</button>
+            </div>
+        </form>
+    </section>
+    <script src="/js/app.js"></script>
+</body>
+</html>
